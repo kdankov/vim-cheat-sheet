@@ -5,21 +5,26 @@ body {
 	&, a {
 		color: $color-body-text;
 	}
+
+	.darktheme {
+		background: #fff;
+	}
 }
 
 h1 {
 	font-size: 1.5em;
-	font-weight: bold;
-	text-align: right;
 
-	& + h6 {
+	&, & + h6 {
 		font-weight: bold;
 		text-align: right;
+	}
+
+	& + h6 {
 		padding-bottom: 2em;
 	}
 
 	&, a, & + h6 {
-		color: #999;
+		color: rgba(black, 0.2);
 	}
 }
 
