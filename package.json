@@ -1,0 +1,30 @@
+{
+  "name": "sigi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "",
+    "gulp-util": "",
+    "gulp-load-plugins": ""
+  },
+  "devDependencies": {
+    "browser-sync": "",
+    "gulp": "",
+    "gulp-autoprefixer": "",
+    "gulp-changed": "",
+    "gulp-notify": "",
+    "gulp-plumber": "",
+    "gulp-sass": "",
+    "gulp-size": "",
+    "gulp-sourcemaps": "",
+    "gulp-spawn": "",
+	"gulp-clean-css": ""
+  },
+  "scripts": {
+    "setup": "npm install && bower install",
+    "start": "gulp"
+  },
+  "author": "Konstantin Dankov",
+  "license": "ISC"
+}

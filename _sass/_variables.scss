@@ -1,0 +1,38 @@
+/* --- 
+ * Variables
+ * --- --- --- */
+
+$color-body-bgrd:		#fdf6e3;
+$color-body-text:		#586e75;
+
+$color-link-normal:		#369;
+
+$font-size-base:		1.4vmin;
+$font-line-height:		1.7;
+
+$font-family-text:		"PT Sans", Helvetica, Arial, sans-serif;
+$font-family-display:	"Avenir Next", Helvetica, Arial, sans-serif;
+
+$size-padding-default:	0.4em;
+$size-border-radius:	0.3em;
+
+/* 
+ * Colors - List of colors by pairs. Primary and Secondary color. */
+
+$colors: (
+
+	default:		( primary: #ffea00,				secondary: #fff8a9 ),
+	form:			( primary: #26e9cf,				secondary: #16c7af ),
+	facebook:		( primary: #6272ea,				secondary: #525eb8 ),
+	confirm:		( primary: #27ae60,				secondary: #2ecc71 ),
+	warning:		( primary: #f1c40f,				secondary: #f39c12 ),
+	attention:		( primary: #e74c3c,				secondary: #c0392b ),
+	empty:			( primary: rgba(white,0),		secondary: #F8F8F8 ),
+
+	c1:				( primary: rgb(73,1,240),		secondary: rgb(100,54,249) ),
+	c2:				( primary: rgb(255,85,93),		secondary: rgb(227,124,130) ),
+	c3:				( primary: rgb(38,233,207),		secondary: rgb(89,247,247) ),
+	c4:				( primary: rgb(33,191,251),		secondary: rgb(63,211,251) ),
+	c5:				( primary: rgb(255,214,70),		secondary: rgb(255,228,113) ),
+
+);

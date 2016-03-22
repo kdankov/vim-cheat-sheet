@@ -1,0 +1,26 @@
+{
+  "name": "vidsy-creator",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Konstantin Dankov"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.5.0",
+    "jquery-sticky": "~1.0.3",
+    "video.js": "^5.8.3"
+  },
+  "devDependencies": {
+    "mathsass": "~0.9.5"
+  }
+}

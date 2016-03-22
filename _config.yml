@@ -1,15 +1,17 @@
 # Site settings
 title: Vim Cheat Sheet
-email: rtorruellas@gmail.com
-description: "A mobile friendly VIM cheat sheet"
+email: koko@rhyndo.com
+description: "VIM cheat sheet"
 baseurl: ""
-url: "http://vim.rtorr.com"
-twitter_username: richardiii
-github_username: rtorr
+url: "http://dankov.name/vim-cheat-sheet"
+twitter_username: kdankov
+github_username: kdankov
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ['css', '_sass', '_scss', '_asset-pack', 'node_modules', 'bower_componenets', 'gulpfile.js']
+keep_files: ['_site/css']
 
 defaults:
   -
